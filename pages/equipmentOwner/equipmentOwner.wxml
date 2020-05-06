@@ -1,0 +1,8 @@
+<!--select.wxml-->
+<view class="container">
+  <image bindtap="bindViewTap" class="userinfo-avatar" src="../select/timg.jpg" mode="cover"></image>
+  <text>添加设备</text>
+  <block wx:for="{{equiment}}" wx:for-item="item">
+    <text class="log-item">{{index + 1}}. {{item}}</text>
+  </block>
+</view>

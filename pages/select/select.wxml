@@ -1,0 +1,15 @@
+<!--select.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <block>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="./timg.jpg" mode="cover"></image>
+      <text>{{identityOne}}</text>
+    </block>
+  </view>
+  <view class="userinfo">
+    <block>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="./timg.jpg" mode="cover"></image>
+      <text>{{identityTwo}}</text>
+    </block>
+  </view>
+</view>
